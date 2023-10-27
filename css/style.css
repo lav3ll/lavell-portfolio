@@ -90,7 +90,6 @@ header h1 {
   flex-direction: column;
   width: 85%;
   align-items: flex-start;
-  background-color: red;
 }
 
 .page-section {
@@ -98,10 +97,19 @@ header h1 {
   width: 100%;
   height: max-content;
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 .page-section-right {
   margin-left: 100px;
+}
+
+.page-section h2 {
+  width: 200px;
+}
+
+.page-section-left {
+  border-right: 3px solid var(--primary);
 }
 
 #about {
