@@ -84,6 +84,39 @@ header h1 {
   box-shadow: 4px 2px rgba(0, 0, 0, 0.6);
 }
 
+.page-wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  align-items: flex-start;
+  background-color: red;
+}
+
+.page-section {
+  display: flex;
+  width: 100%;
+  height: max-content;
+  justify-content: space-between;
+}
+
+.page-section-right {
+  margin-left: 100px;
+}
+
+#about {
+  background-color: blue;
+  display: flex;
+}
+
+#work {
+  background-color: #ff6663;
+}
+
+#contact {
+  background-color: bisque;
+}
+
 h2 {
   font-size: 48px;
 }
