@@ -50,6 +50,23 @@ header h1 {
 }
 
 /* End of Header*/
+
+/* Banner*/
+.hero-banner {
+  background-image: url("../images/02-hero-bg.jpg");
+  height: 180px;
+  background-size: cover;
+}
+
+.hero-banner div h2 {
+  float: right;
+  margin-right: 60px;
+  margin-top: 130px;
+  color: var(--primary);
+  -webkit-text-stroke: 1px black;
+}
+
+/* End of Banner*/
 h1,
 h2,
 h3,
