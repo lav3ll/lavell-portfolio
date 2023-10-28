@@ -129,16 +129,6 @@ header h1 {
   border-right: 3px solid var(--primary);
 }
 
-#about {
-}
-
-#work {
-}
-
-#contact {
-  background-color: bisque;
-}
-
 /*Work*/
 
 .project {
@@ -206,6 +196,7 @@ header h1 {
   color: var(--secondary);
 }
 
+/* End of Work*/
 #contact img {
   width: 40px;
   height: 40px;
@@ -222,6 +213,10 @@ header h1 {
 }
 .icons-container p {
   font-size: 12px;
+}
+
+#twitter-icon {
+  fill: var(--secondary);
 }
 
 h2 {
