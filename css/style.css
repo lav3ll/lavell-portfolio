@@ -6,6 +6,7 @@
 :root {
   --primary: #eec170;
   --secondary: #ff6663;
+  --white: #fff;
 }
 
 body {
@@ -14,6 +15,7 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
+  background-color: var(--white);
 }
 
 /* Header*/
@@ -119,12 +121,9 @@ header h1 {
 }
 
 #about {
-  background-color: blue;
-  display: flex;
 }
 
 #work {
-  background-color: #ff6663;
 }
 
 #contact {
@@ -140,10 +139,22 @@ header h1 {
   border: 5px solid var(--primary);
 }
 
+.project:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.7s linear;
+}
+
 .project-big {
   width: 100%;
   height: 60%;
   border: 5px solid var(--primary);
+}
+
+.project-big:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.7s linear;
 }
 
 .sm-projContainer {
