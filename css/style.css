@@ -133,7 +133,7 @@ header h1 {
 }
 
 /* Apply padding to paragraphs within the right-side content */
-.page-section-right p {
+.about-txt {
   padding: 0 50px;
 }
 
@@ -443,5 +443,62 @@ p {
 
   .header .nav {
     font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  header h1 {
+    font-size: 15px;
+    padding-left: 10px;
+  }
+
+  .btn {
+    margin: 5px 5px;
+  }
+
+  .header .nav a:last-child {
+    border: 0px solid var(--secondary);
+    padding: 0;
+  }
+
+  #avatar {
+    width: 75px;
+    height: 75px;
+  }
+
+  #banner-h2 {
+    font-size: 20px;
+  }
+
+  .hero-banner {
+    display: flex;
+    height: 100px;
+    padding: 10px;
+  }
+
+  .page-section-left {
+    width: 60px;
+  }
+
+  .sub-heading {
+    font-size: 10px;
+  }
+
+  .about-txt {
+    font-size: 0.5rem;
+    padding: 0 10px;
+  }
+  .project-txt {
+    padding: 0 5px;
+    margin: -75px 0;
+    font-size: 8px;
+  }
+
+  .project-txt p {
+    font-size: 7px;
+  }
+
+  .project-txt a {
+    font-size: 7px;
   }
 }
