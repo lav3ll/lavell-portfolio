@@ -2,8 +2,6 @@
 
 A portfolio showcasing my work and skills
 
-Static marketing website
-
 ## Description
 
 This is my personal project portfolio, showcasing a collection of web development projects I've created. From web applications and mobile apps to websites and more, explore my work and journey as a self-taught software developer. Each project comes with details, source code links, and live demos, providing a glimpse into my skills and passion for coding. Thank you for visiting my portfolio, and feel free to reach out for collaboration or any questions."
